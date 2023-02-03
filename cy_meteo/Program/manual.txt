@@ -1,0 +1,31 @@
+Manual : ./Main.sh <options> <arguments>
+<options> :
+>	'--Help' shows this information 
+
+At least one of those must be chosen {
+>	'-p <Arg>' Arg='1','2','3' this option needs a valid argument 
+Arg=1 produces a graph that shows the margin error of pressure
+Arg=2 produces a simple line graph that displays the avrage pressure per date
+Arg=3 produces a multi-lines graph 
+>	'-t <Arg>' Arg='1','2','3' this option needs a valid argument 
+Arg=1 produces a graph that shows the margin error of Temprature
+Arg=2 produces a simple line graph that displays the avrage tempreture per date
+Arg=3 produces a multi-lines graph 
+>	'-h' gives a color graph that displays the altitude/hight
+>	'-m' gives a color graph that displays the moisture 
+>	'-w' gives a vector graph that displays the wind trajectory
+}
+only one of thoes can be chosen {
+>	'-F' sets the geographic limit to (F)rance : France métropolitaine + Corse.
+>	'-G' sets the geographic limit to (G)uyane française.
+>	'-S' sets the geographic limit to (S)aint-Pierre et Miquelon : ile située à l’Est du Canada.
+>	'-A' sets the geographic limit to (A)ntilles.
+>	'-O' sets the geographic limit to (O)céan indien.
+>	'-Q' sets the geographic limit to antarcti(Q)ue.
+}
+>	'-a' <Arg1> <Arg2> limits the latitude by setting Arg1 to minlat and Arg2 to maxlat so Arg1 needs to be suprior to Arg2
+>	'-g' <Arg1> <Arg2> limits the longitude by setting Arg1 to minlat and Arg2 to maxlat so Arg1 needs to be suprior to Arg2
+>	'-d' <Arg1> <Arg2> Arg1 and Arg2 need to be in format YYYY-MM-DD with Arg1 being older then Arg2 and in beetween the maximum and minimum date possible for this file
+>	'--tab' selects the sorting method to {liste Chainer}
+>	'--abr' selects the sorting method to {Arbre Binaire de Recherche}
+>	'--avl' selects the sorting method to {Adelson-Velskii and Landis}
