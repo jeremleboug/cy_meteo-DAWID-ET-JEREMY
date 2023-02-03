@@ -26,6 +26,6 @@ only one of thoes can be chosen {
 >	'-a' <Arg1> <Arg2> limits the latitude by setting Arg1 to minlat and Arg2 to maxlat so Arg1 needs to be suprior to Arg2
 >	'-g' <Arg1> <Arg2> limits the longitude by setting Arg1 to minlat and Arg2 to maxlat so Arg1 needs to be suprior to Arg2
 >	'-d' <Arg1> <Arg2> Arg1 and Arg2 need to be in format YYYY-MM-DD with Arg1 being older then Arg2 and in beetween the maximum and minimum date possible for this file
->	'--tab' selects the sorting method to {liste Chainer}
+>	'--tab' selects the sorting method to {Tableaux}
 >	'--abr' selects the sorting method to {Arbre Binaire de Recherche}
 >	'--avl' selects the sorting method to {Adelson-Velskii and Landis}
