@@ -5,3 +5,5 @@ su fichier de sortie>
 
 Vous pouvez ensuite rajouter a la commande de base : -r pour un trie decroissant 
 et --tab/--abr/--avl pour choisir votre methode de triage. 
+
+le code ne prends en compte qu'une seule colonne et créer un fichier de sortie qui n'en contient qu'une seule
